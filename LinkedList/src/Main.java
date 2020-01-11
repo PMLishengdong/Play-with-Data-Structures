@@ -22,5 +22,10 @@ public class Main {
         list.set(list.getSize() / 2, Math.abs(list.get(list.getSize() / 2)));
         list.setLast(Math.abs(list.getLast()));
         System.out.println(list);
+
+        list.addFirst(99);
+        list.addLast(99);
+        list.replaceAll(99, 999);
+        System.out.println(list);
     }
 }

@@ -132,6 +132,30 @@ public class LinkedList<E> {
         set(size - 1, e);
     }
 
+    // 在链表中更改首个元素e为newE
+    public void replace(E e, E newE){
+        replace(head, e, newE, false);
+    }
+
+    // 在链表中更改首个元素e为newE
+    public void replaceAll(E e, E newE){
+        replace(head, e, newE, true);
+    }
+
+    // 在以node为节点的链表是否全部更改元素e为newE, 递归算法
+    private void replace(Node node, E e, E newE, boolean isReplaceAll){
+
+        if(node == null)
+            return;
+
+        if(node.e.equals(e)){
+            node.e = newE;
+            if(isReplaceAll != true)
+                return;
+        }
+        replace(node.next, e, newE, isReplaceAll);
+    }
+
     // 在链表中删除第index位置的元素, 返回删除元素的值
     public E remove(int index){
 
