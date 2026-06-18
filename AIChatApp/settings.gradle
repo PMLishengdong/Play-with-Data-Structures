@@ -1,0 +1,3 @@
+// Settings file for the AI Chat App
+include ':app'
+rootProject.name = 'AIChatApp'

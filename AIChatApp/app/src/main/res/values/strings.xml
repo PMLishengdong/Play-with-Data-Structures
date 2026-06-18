@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Chat</string>
+    <string name="title_chat">聊天</string>
+    <string name="title_settings">设置</string>
+    <string name="title_mcp">MCP管理</string>
+    <string name="title_tools">工具管理</string>
+
+    <string name="hint_input">输入消息…</string>
+    <string name="action_send">发送</string>
+    <string name="action_stop">停止</string>
+    <string name="action_new_chat">新建对话</string>
+    <string name="action_settings">设置</string>
+    <string name="action_mcp">MCP</string>
+    <string name="action_tools">工具</string>
+    <string name="action_add">添加</string>
+    <string name="action_delete">删除</string>
+    <string name="action_enable">启用</string>
+    <string name="action_disable">停用</string>
+    <string name="action_save">保存</string>
+    <string name="action_cancel">取消</string>
+
+    <string name="label_provider">AI 提供商</string>
+    <string name="label_model">模型</string>
+    <string name="label_api_key">API Key</string>
+    <string name="label_base_url">Base URL</string>
+    <string name="label_name">名称</string>
+    <string name="label_type">类型</string>
+    <string name="label_enabled">已启用</string>
+
+    <string name="provider_openai">OpenAI 兼容</string>
+    <string name="provider_anthropic">Anthropic Claude</string>
+    <string name="provider_custom">自定义</string>
+
+    <string name="mcp_http">HTTP/SSE</string>
+    <string name="mcp_ws">WebSocket</string>
+    <string name="mcp_endpoint">Endpoint</string>
+    <string name="mcp_no_items">尚未注册 MCP，点击 + 添加</string>
+    <string name="tools_no_items">尚未注册工具，点击 + 添加</string>
+    <string name="providers_no_items">尚未配置提供商，点击 + 添加</string>
+    <string name="chat_empty">开始你的第一次对话</string>
+    <string name="msg_streaming">正在生成…</string>
+    <string name="msg_error">出错了: %1$s</string>
+    <string name="msg_select_provider">请先在设置中选择 AI 提供商</string>
+    <string name="msg_select_model">请先选择模型</string>
+    <string name="msg_config_saved">已保存</string>
+    <string name="msg_removed">已删除</string>
+    <string name="msg_enabled">已启用</string>
+    <string name="msg_disabled">已停用</string>
+    <string name="msg_select_provider_title">选择提供商</string>
+    <string name="msg_select_model_title">选择模型</string>
+</resources>
