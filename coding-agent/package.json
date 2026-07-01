@@ -1,0 +1,16 @@
+{
+  "name": "coding-agent",
+  "version": "1.0.0",
+  "description": "一个写代码的 Agent 的 NodeJS CommonJS 实现（工具调用 / 任务规划 / 记忆 / 上下文 / 多 LLM 提供商）",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node example.js",
+    "example": "node example.js"
+  },
+  "engines": {
+    "node": ">=16.14.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}
