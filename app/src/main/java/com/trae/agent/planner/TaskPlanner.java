@@ -21,16 +21,16 @@ import java.util.regex.Pattern;
 public class TaskPlanner {
 
     private static final String PLANNER_PROMPT =
-            "You are a planning agent for a code-writing AI assistant. " +
-            "Given a user request, break it down into a logical sequence of tasks. " +
-            "Each task should be a single, concrete step the agent can execute. " +
-            "Return your answer as a numbered list, one task per line, with no extra commentary.\n\n" +
-            "Example:\n" +
-            "1. Read the existing project structure and understand the codebase\n" +
-            "2. Create the utility class with the required methods\n" +
-            "3. Write unit tests for the new class\n" +
-            "4. Run tests to verify correctness\n\n" +
-            "User request: ";
+            "你是一个代码编写AI助手的规划智能体。 " +
+            "给定一个用户请求，将其分解为逻辑上的任务序列。 " +
+            "每个任务应该是智能体可以执行的单个具体步骤。 " +
+            "将你的答案以编号列表形式返回，每行一个任务，不要添加额外注释。\n\n" +
+            "示例:\n" +
+            "1. 阅读现有项目结构，理解代码库\n" +
+            "2. 创建包含所需方法的工具类\n" +
+            "3. 为新类编写单元测试\n" +
+            "4. 运行测试验证正确性\n\n" +
+            "用户请求: ";
 
     private final LlmClient llmClient;
 
@@ -85,11 +85,11 @@ public class TaskPlanner {
 
     private List<Task> fallbackPlan(String goal) {
         List<Task> tasks = new ArrayList<>();
-        tasks.add(new Task(null, "Analyze the request: " + goal));
-        tasks.add(new Task(null, "Search the codebase for relevant files"));
-        tasks.add(new Task(null, "Read and understand existing code"));
-        tasks.add(new Task(null, "Implement the required changes"));
-        tasks.add(new Task(null, "Verify the implementation"));
+        tasks.add(new Task(null, "分析请求: " + goal));
+        tasks.add(new Task(null, "在代码库中搜索相关文件"));
+        tasks.add(new Task(null, "阅读并理解现有代码"));
+        tasks.add(new Task(null, "实施所需的更改"));
+        tasks.add(new Task(null, "验证实现"));
         return tasks;
     }
 }
