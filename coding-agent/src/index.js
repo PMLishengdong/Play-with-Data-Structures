@@ -9,6 +9,11 @@ const MemorySystem = require("./core/MemorySystem");
 const WorldBook = require("./core/WorldBook");
 const ContextManager = require("./core/ContextManager");
 const TaskPlanner = require("./core/TaskPlanner");
+const Blackboard = require("./core/Blackboard");
+const MessageBus = require("./core/MessageBus");
+const WorkerAgent = require("./core/WorkerAgent");
+const CoordinatorAgent = require("./core/CoordinatorAgent");
+const MultiAgentSystem = require("./core/MultiAgentSystem");
 
 const LlmProvider = require("./llm/LlmProvider");
 const OpenAiProvider = require("./llm/OpenAiProvider");
@@ -28,6 +33,11 @@ module.exports = {
     WorldBook,
     ContextManager,
     TaskPlanner,
+    Blackboard,
+    MessageBus,
+    WorkerAgent,
+    CoordinatorAgent,
+    MultiAgentSystem,
     LlmProvider,
     OpenAiProvider,
     llmConfig,

@@ -1,0 +1,7 @@
+[
+    {
+        "type": "summary",
+        "content": "用户请求: 任务背景：待办事项应用需要支持增删改查任务。\n具体任务：设计待办事项应用的后端 API 与数据模型；结果: [backend-expert] 后端设计：提供 GET /api/items 与 POST /api/items 两个 REST 接口，返回 JSON 数据。",
+        "createdAt": "2026-07-02T02:07:25.870Z"
+    }
+]
