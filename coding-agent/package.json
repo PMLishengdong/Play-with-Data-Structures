@@ -1,0 +1,17 @@
+{
+    "name": "coding-agent",
+    "version": "1.0.0",
+    "description": "A NodeJS CommonJS based coding agent with tool calling, task planning, memory, context management and world book.",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "example": "node example/example.js"
+    },
+    "engines": {
+        "node": ">=16.14.0"
+    },
+    "dependencies": {
+        "axios": "^1.6.0"
+    },
+    "license": "MIT"
+}
