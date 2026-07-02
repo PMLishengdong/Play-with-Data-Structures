@@ -1,0 +1,17 @@
+{
+    "name": "coding-agent",
+    "version": "1.0.0",
+    "description": "一个具备工具调用、任务规划、记忆系统、上下文管理与 RAG 的 Node.js 写代码 Agent",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "engines": {
+        "node": ">=16.14.0"
+    },
+    "dependencies": {
+        "axios": "^1.6.0"
+    },
+    "author": "",
+    "license": "MIT"
+}
